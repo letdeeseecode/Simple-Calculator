@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon2.webp" type="image/x-icon" />   <!--icon beside the title (called favicon)-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <!--title text-->
+        <div class = "font-bold pt-5 pb-10">
+            <h1 class="font-sans text-2xl text-center">
+                Online Calculator
+            </h1>
+        </div>
+    <!--title text-->
+
+    <!--calculator-->
+        <div class = "bg-gray-700 h-96 w-100 mx-80 border-2 border-black rounded-lg items-baseline">
+
+            <!--Screen-->
+            <div class="bg-gray-200 h-12 border-black rounded-md p-3 mx-5 my-5">
+                <p>screen</p>
+            </div>
+
+            <!--operators-->
+            <div class = "flex justify-around">
+                <button>
+                    <div class = "bg-white h-12 w-14  rounded-full" >
+                        <h2 class = " text-bold font-sans text-3xl text-center">+</h2>
+                    </div>
+                </button>
+                <button>
+                    <div class = "bg-white h-12 w-14  rounded-full" >
+                        <h2 class = " text-bold font-sans text-3xl text-center">-</h2>
+                    </div>
+                </button>
+                <button>
+                    <div class = "bg-white h-12 w-14 rounded-full" >
+                        <h2 class = " text-bold font-sans text-3xl text-center">x</h2>
+                    </div>
+                </button>
+                <button>
+                    <div class = "bg-white h-12 w-14  rounded-full" >
+                        <h2 class = " text-bold font-sans text-3xl text-center">/</h2>
+                    </div>
+                </button>
+            </div>
+
+            <!--numbers-->
+            <div class = "">
+
+            </div>
+        </div>
+    
+
+</body>
+</html>
