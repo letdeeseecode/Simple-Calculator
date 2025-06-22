@@ -11,7 +11,7 @@
     <!--title text-->
         <div class = "font-bold pt-5 pb-10">
             <h1 class="font-sans text-2xl text-center">
-                Online Calculator
+                Virtual Calculator
             </h1>
         </div>
     <!--title text-->
@@ -21,33 +21,33 @@
 
             <!--Screen-->
             <div class="bg-gray-200 h-12 border-black rounded-md p-3 mx-5 my-5">
-                <p>screen</p>
+                <p></p>
             </div>
             <!--Screen-->
 
             <!--operators-->
             <div class = "flex justify-around">
-                <button>
+                <button class = "transition active:scale-95">
                     <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400 ease-in-out" >
                         <h2 class = " text-bold font-sans text-3xl text-center">+</h2>
                     </div>
                 </button>
-                <button>
+                <button class = "transition active:scale-95">
                     <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
                         <h2 class = " text-bold font-sans text-3xl text-center">-</h2>
                     </div>
                 </button>
-                <button>
+                <button class = "transition active:scale-95">
                     <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
                         <h2 class = " text-bold font-sans text-3xl text-center">x</h2>
                     </div>
                 </button>
-                <button>
+                <button class = "transition active:scale-95">
                     <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
                         <h2 class = " text-bold font-sans text-3xl text-center">/</h2>
                     </div>
                 </button>
-                <button>
+                <button class = "transition active:scale-95">
                     <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
                         <h2 class = " text-bold font-sans text-3xl text-center">%</h2>
                     </div>
@@ -55,63 +55,89 @@
             </div>
             <!--operators-->
 
-            <!--numbers-->
-            <div class = "grid grid-cols-3 my-8 gap-5 w-1/2 mx-10">
-                <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">9</h2>
-                    </div>
-                </button>
-                 <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">8</h2>
-                    </div>
-                </button>
-                 <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">7</h2>
-                    </div>
-                </button>
-                 <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">6</h2>
-                    </div>
-                </button>
-                 <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">5</h2>
-                    </div>
-                </button>
-                 <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">4</h2>
-                    </div>
-                </button> 
-                <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">3</h2>
-                    </div>
-                </button> 
-                <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">2</h2>
-                    </div>
-                </button> 
-                <button>
-                    <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
-                        <h2 class = " text-bold font-sans text-3xl text-center">1</h2>
-                    </div>
-                </button>
-            </div>
-            <!--numbers-->
+            <!--calculator-body-->
+            <div class ="flex my-8 gap-5 mx-10">
+                <div class = "grid grid-cols-3 gap-6">
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">9</h2>
+                        </div>
+                    </button>
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">8</h2>
+                        </div>
+                    </button>
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">7</h2>
+                        </div>
+                    </button>
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">6</h2>
+                        </div>
+                    </button>
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">5</h2>
+                        </div>
+                    </button>
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">4</h2>
+                        </div>
+                    </button> 
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">3</h2>
+                        </div>
+                    </button> 
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">2</h2>
+                        </div>
+                    </button> 
+                    <button class = "transition active:scale-95">
+                        <div class = "bg-white h-12 w-14 hover:shadow-gray-400 hover:shadow-lg rounded-full transition duration-400" >
+                            <h2 class = " text-bold font-sans text-3xl text-center">1</h2>
+                        </div>
+                    </button>
+                </div>
+                <!--numbers-->
 
-            <!--other operators(0/clr/equal)-->
-            
+                <!--other operators(0/clr/equal)-->
+                <div class="flex flex-col gap-8 ml-10">
+                    <!-- 0 and CLR -->
+                    <div class="flex gap-10">
+                        <button class = "transition active:scale-95">
+                        <div class="bg-white h-12 w-14 hover:shadow-lg hover:shadow-gray-500 rounded-full transition duration-400">
+                            <h2 class="text-bold font-sans text-3xl text-center">0</h2>
+                        </div>
+                        </button>
+                        <button class = "transition active:scale-95">
+                            <div class="bg-white h-12 w-40 hover:shadow-lg hover:shadow-gray-500 rounded-xl transition duration-400 flex items-center justify-center">
+                                <h2 class="text-bold font-sans text-2xl">CLR</h2>
+                            </div>
+                        </button>
+                    </div>
 
+                    <!-- "=" button -->
+                    <div class="flex justify-center">
+                        <button class = "transition active:scale-95">
+                            <div class="bg-white h-28 w-44 hover:shadow-lg hover:shadow-gray-500 rounded-xl transition duration-400 flex items-center justify-center">
+                                <h1 class="text-bold font-sans text-5xl">=</h1>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <!--other operators(0/clr/equal)-->
             </div>
-            <!--other operators(0/clr/equal)-->
-        </div>
-    
+            <!--calculator-body-->
+    </div>
+    <!--calculator-->    
 
 </body>
 </html>
+
+
